@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <div class="navbar_static">
            <div class="navbar drop-shadow-xl bg-green-300">
   <div class="navbar-start">
     <div class="dropdown">
