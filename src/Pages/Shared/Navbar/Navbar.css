@@ -1,5 +1,5 @@
 .night-mode {
-    background-color: rgb(156, 156, 156);
+    background-color: black;
     color: white;
   }
   
@@ -9,5 +9,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    background-color: #fff;
+   
+    margin-bottom: 80px;
+    
   }
+
+  

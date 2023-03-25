@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 const Navbar = () => {
 
@@ -7,20 +8,23 @@ const Navbar = () => {
                 setIsNightMode(!isNightMode);
                 document.body.classList.toggle("night-mode")
             }
+      
+           
 
 
     return (
         <div class="navbar_static">
-           <div class="navbar drop-shadow-xl bg-green-300">
+           <div class="navbar shadow bg-green-300">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </label>
-      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Homepage</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>About</a></li>
+      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-teal-400 rounded-box w-52">
+        
+        <Link to='/'>Home Page</Link>
+        <Link to='/new'>News</Link>
+        <Link to='/about'>About</Link>
       </ul>
     </div>
   </div>
@@ -50,7 +54,7 @@ const Navbar = () => {
           <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" />
         </div>
       </label>
-      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-teal-400 rounded-box w-52">
         <li>
           <a class="justify-between">
             Profile
