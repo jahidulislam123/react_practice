@@ -22,9 +22,7 @@ const Home = () => {
                 key={cat.id}
                 cat={cat}
                 >
-
                 </SmallHome> )
-
 
             }
             <br></br>
