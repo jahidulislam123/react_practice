@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div class="navbar_static">
-           <div class="navbar shadow bg-green-300">
+           <div class="navbar shadow bg-teal-400">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
